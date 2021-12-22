@@ -8,10 +8,10 @@ phases:
       
   build:
     commands:
-      - npm run pre_build
+      - npm run build
 
 artifacts:
   files:
     - '**/*'
-  discard-paths: no
+  discard-paths: yes
   base-directory: build
